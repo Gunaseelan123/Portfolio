@@ -2,11 +2,11 @@ const Project = () => {
   return (
     <div id="project" className="bg-[#222831] min-h-screen flex items-center">
       <div className="max-w-[90%] md:max-w-[75%] mx-auto font-inter space-y-10 py-10">
-        <h1 className="text-4xl md:text-5xl font-bold text-center text-[#00ADB5]">
+        <h1 data-aos="flip-up" data-aos-duration="200" className="text-4xl md:text-5xl font-bold text-center text-[#00ADB5]">
           My Projects
         </h1>
 
-          <div className="w-full md:w-1/2 flex flex-col items-center bg-[#393E46] p-6 rounded-2xl shadow-lg">
+          <div data-aos="fade-up" className="w-full md:w-1/2 flex flex-col items-center bg-[#393E46] p-6 rounded-2xl shadow-lg">
             <h1 className="text-[#00ADB5] font-extrabold text-[32px] mb-4">
               Expertisor Academy
             </h1>
@@ -21,7 +21,7 @@ const Project = () => {
             </a>
           </div>
 
-          <div className="w-full md:w-1/2 flex flex-col place-self-end bg-[#393E46] p-6 rounded-2xl shadow-lg">
+          <div data-aos="fade-up" className="w-full md:w-1/2 flex flex-col place-self-end bg-[#393E46] p-6 rounded-2xl shadow-lg">
             <h1 className="text-center text-[#00ADB5] font-extrabold text-[32px] mb-4">
               Biobot AI
             </h1>
@@ -40,7 +40,7 @@ const Project = () => {
 
 
           {/* Cinemax Project */}
-          <div className="w-full md:w-1/2 flex flex-col  items-center bg-[#393E46] p-6 rounded-2xl shadow-lg">
+          <div data-aos="fade-up" className="w-full md:w-1/2 flex flex-col  items-center bg-[#393E46] p-6 rounded-2xl shadow-lg">
             <h1 className="text-[#00ADB5] font-extrabold text-[32px] mb-4">
             Cinemax
             </h1>
@@ -57,7 +57,7 @@ const Project = () => {
           </div>
 
           {/* React Weather App Project */}
-          <div className="w-full md:w-1/2 flex flex-col place-self-end bg-[#393E46] p-6 rounded-2xl shadow-lg">
+          <div data-aos="fade-up" className="w-full md:w-1/2 flex flex-col place-self-end bg-[#393E46] p-6 rounded-2xl shadow-lg">
             <h1 className="text-center text-[#00ADB5] font-extrabold text-[32px] mb-4">
             React Weather App
             </h1>
@@ -77,7 +77,7 @@ const Project = () => {
 
 
           {/* React Weather App Project */}
-          <div className="w-full md:w-1/2 flex flex-col  items-center bg-[#393E46] p-6 rounded-2xl shadow-lg">
+          <div data-aos="fade-up" className="w-full md:w-1/2 flex flex-col  items-center bg-[#393E46] p-6 rounded-2xl shadow-lg">
             <h1 className="text-[#00ADB5] font-extrabold text-[32px] mb-4">
               Bookway
             </h1>
@@ -95,7 +95,7 @@ const Project = () => {
           </div>
 
           {/* Landing Pages Bundle */}
-          <div className="w-full md:w-1/2 flex flex-col place-self-end bg-[#393E46] p-6 rounded-2xl shadow-lg">
+          <div data-aos="fade-up" className="w-full md:w-1/2 flex flex-col place-self-end bg-[#393E46] p-6 rounded-2xl shadow-lg">
             <h1 className="text-center text-[#00ADB5] font-extrabold text-[32px] mb-4">
               Landing Pages Bundle
             </h1>

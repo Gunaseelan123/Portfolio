@@ -8,17 +8,18 @@ const Footer = () => {
           © {new Date().getFullYear()} Gunaseelan. All rights reserved.
         </p>
         <div className="flex justify-center gap-4 mt-2">
-        <a
+        <a  
             href="https://github.com/Gunaseelan123"
             className="hover:text-[#101010]"
           >
             <FaGithub size={29} />
           </a>
-          <a
+          <a 
+            
             href="https://www.linkedin.com/in/gunaseelan-r-05a0b0253/"
             className="hover:text-[#0d0d0d]"
           >
-            <FaLinkedin size={29} />
+            <FaLinkedin  size={29} />
           </a>
 
         </div>

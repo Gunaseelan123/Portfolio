@@ -7,9 +7,9 @@ import { FiDownload } from "react-icons/fi";
 const Home = () => {
   return (
     <div id="home" className="bg-[#222831] text-[#EEEEEE]">
-      <div className="max-w-[85%] mx-auto font-inter grid grid-cols-1 md:grid-cols-2 gap-8 items-center  min-h-screen">
+      <div  className="max-w-[85%] mx-auto font-inter grid grid-cols-1 md:grid-cols-2 gap-8 items-center  min-h-screen">
         {/* Left Section */}
-        <div className="order-2 lg:order-1 flex flex-col items-center md:items-start justify-start space-y-5 text-center md:text-left">
+        <div  className="order-2 lg:order-1 flex flex-col items-center md:items-start justify-start space-y-5 text-center md:text-left">
           <h1 className="text-3xl md:text-5xl font-bold">
             I’m <span className="text-[#00ADB5]">Gunaseelan R</span>
           </h1>
@@ -43,7 +43,7 @@ const Home = () => {
         </div>
 
         {/* Right Section */}
-        <div className="order-1 lg:order-2 flex justify-center md:justify-start lg:justify-end items-center">
+        <div   className="order-1 lg:order-2 flex justify-center md:justify-start lg:justify-end items-center">
           <img
             className="w-[85%] rounded-[50px]"
             src="/PASS_SMALL.png"

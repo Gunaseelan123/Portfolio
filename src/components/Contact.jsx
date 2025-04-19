@@ -48,14 +48,14 @@ const Contact = () => {
       <div className="max-w-[90%] md:max-w-[75%] mx-auto 
   font-inter space-y-16 py-10">
         <div className="text-center">
-          <h2 className="text-4xl md:text-5xl font-bold text-center text-[#00ADB5]">
+          <h2 data-aos="flip-up" data-aos-duration="200" className="text-4xl md:text-5xl font-bold text-center text-[#00ADB5]">
             Get in touch
           </h2>
         </div>
 
         <div className="flex flex-col items-center md:flex-row gap-[70px] lg:gap-[150px] justify-center">
 
-          <div className="flex flex-col space-y-5 text-lg md:text-xl font-semibold text-[#fff]">
+          <div data-aos="zoom-in-right" className="flex flex-col space-y-5 text-lg md:text-xl font-semibold text-[#fff]">
             <div className="flex items-center gap-3">
               <FaLocationDot className="text-[#00ADB5]" size={20} />
               <span>Salem</span>
@@ -91,6 +91,7 @@ const Contact = () => {
 
           {/* Contact Form */}
           <form
+            data-aos="zoom-in-left"
             onSubmit={handleSubmit}
             className="flex flex-col gap-5 w-full"
           >

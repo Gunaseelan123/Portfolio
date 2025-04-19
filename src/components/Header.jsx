@@ -11,7 +11,7 @@ const Header = () => {
       <div className="max-w-[90%] mx-auto py-3 flex items-center justify-between font-inter">
         {/* Logo */}
         <div>
-          <h1 className="text-[2.5rem] font-bold text-[#EEEE] hover:text-[#00ADB5] ">
+          <h1 data-aos="zoom-in" data-aos-duration="1000" className="text-[2.5rem] font-bold text-[#EEEE] hover:text-[#00ADB5] ">
             Gunaseelan.
           </h1>
         </div>
@@ -28,6 +28,7 @@ const Header = () => {
 
         {/* Navigation Menu */}
         <nav
+        
           className={`${
             isMenuOpen ? "block" : "hidden"
           } absolute top-[70px]  left-0 w-full bg-[#393E46] p-5 lg:p-0 lg:relative lg:block lg:w-auto lg:px-5 lg:py-3 lg:rounded-2xl lg:top-0 text-[#EEE]`}
@@ -92,7 +93,6 @@ const Header = () => {
 
         </div>
       </div>
-      {/* <hr className="border border-gray-700"/> */}
     </div>
   );
 };
