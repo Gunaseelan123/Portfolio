@@ -37,7 +37,7 @@ const Home = () => {
           {/* Contact Information */}
 
           {/* <div className="bg-[#fe5617] px-5 py-2 rounded-2xl font-bold "> */}
-            <a download href="/Gunaseelan_dev"  className="bg-[#00ADB5] px-5 py-2 rounded-2xl font-bold flex items-center gap-2 ">Download CV <FiDownload className="text-[20px]"/>
+            <a download href="/Gunaseelan_dev.pdf"  className="bg-[#00ADB5] px-5 py-2 rounded-2xl font-bold flex items-center gap-2 ">Download CV <FiDownload className="text-[20px]"/>
             </a>
           {/* </div> */}
         </div>
